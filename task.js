@@ -76,8 +76,8 @@ function traverse(traverseIndex){
 			   traverseBF(rootNode,Nodelist);
 			break;
 	}
-	traverseRender(Nodelist,foundText);
 	resetBG();
+	setTimeout(traverseRender(Nodelist,foundText),500);
 }
 
 //绑定按钮事件
